@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/6ifo1/erober03/EXAM/.metadata/.plugins/org.eclipse.jdt.core
+1561734753.index
+587186141.index

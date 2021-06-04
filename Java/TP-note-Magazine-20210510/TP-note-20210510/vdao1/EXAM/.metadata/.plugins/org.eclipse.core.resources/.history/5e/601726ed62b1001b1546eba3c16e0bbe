@@ -1,0 +1,8 @@
+package fr.upem.magazine;
+
+public interface Eval {
+	public final int score = 0;
+	public default int score() {
+		return 0;
+	}
+}

@@ -1,0 +1,13 @@
+package fr.upem.magazine.main;
+
+public class Main {
+
+	public static void main(String[] args) {
+	    var magazine1 = new Magazine("rolling stone", 8);
+	    System.out.println(magazine1);  // rolling stone magazine at 8€
+	    System.out.println(magazine1.price()); // 8
+	    magazine1.price(9);	
+	    System.out.println(magazine1);  // rolling stone magazine at 9€
+	}
+
+}

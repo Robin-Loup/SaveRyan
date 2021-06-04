@@ -1,0 +1,11 @@
+package fr.upem.magazine.eval;
+
+public class StarEval implements Eval {
+	private final int stars;
+	private final String comment;
+	
+	public StarEval(int stars, String comment) {
+		
+	}
+
+}

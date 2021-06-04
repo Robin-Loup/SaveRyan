@@ -1,0 +1,6 @@
+package fr.upem.magazine.eval;
+
+public class LikeEval implements Eval {
+	private final boolean like;
+
+}

@@ -1,0 +1,7 @@
+Exercice 6:
+enqueue est de complexité O(1) car on ne parcoure le code qu'une fois(pas de boucle while ou for et on ne parcourt pas la file).
+dequeue est également de compléxité O(1) car on ne parcourt le code qu'une fois.
+
+Exercice 7:
+inser_pq est de complexité O(n) car on parcout une fois la file pour placeé le nouvel évenement.
+remove_min_pq O(1) car on ne parcourt pas la file.

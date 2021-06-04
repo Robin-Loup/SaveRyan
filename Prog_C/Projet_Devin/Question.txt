@@ -1,0 +1,8 @@
+Votre personnage fait il de la politique?
+2 5 1 1 1 1 -1
+Est il un acteur?
+1 5 1 0 5 1 -1
+Est il president?
+1 1 7 -1
+Est ce un homme?
+1 1 1 -1

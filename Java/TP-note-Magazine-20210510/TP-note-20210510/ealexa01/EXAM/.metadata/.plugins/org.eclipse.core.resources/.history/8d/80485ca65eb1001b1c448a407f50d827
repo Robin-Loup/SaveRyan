@@ -1,0 +1,5 @@
+package fr.upem.magazine.eval;
+
+public class StarEval implements Eval {
+
+}

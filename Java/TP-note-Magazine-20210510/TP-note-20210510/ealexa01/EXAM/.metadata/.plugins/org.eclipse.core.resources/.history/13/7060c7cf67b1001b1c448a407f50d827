@@ -1,0 +1,9 @@
+package fr.upem.magazine.eval;
+
+/* Il est nécessaire que Eval soit une Interface car on ne sait pas créer
+ * un objet de type "Eval", il peut exister plein de sous-types différents de Eval.
+ * 
+ */
+public interface Eval {
+	public int score();
+}

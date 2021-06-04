@@ -1,0 +1,6 @@
+Q5)
+	Le temps d'executions des versions triée est relativement constant (entre 0 et 9 ms)
+	Le temps d'executions des versions non triée peut aller de 0 ms à plusieurs milliers milliers de ms.
+
+Q6)
+	Oui,si l'element a recherché est au début du tableau et que le tableau est grand, la recherche non triée est plus rapide

@@ -1,0 +1,8 @@
+package fr.upem.magazine.eval;
+
+/* Il est nécessaire que Eval soit une Interface car ...
+ * 
+ */
+public interface Eval {
+	public int score();
+}

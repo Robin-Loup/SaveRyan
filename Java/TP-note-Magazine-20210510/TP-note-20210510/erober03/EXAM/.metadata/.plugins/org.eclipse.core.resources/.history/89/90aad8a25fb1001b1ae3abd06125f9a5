@@ -1,0 +1,16 @@
+package fr.upem.magazine;
+
+public class LikeEval implements Eval {
+	private final boolean like;
+	
+	public LikeEval(boolean like) {
+		this.like = like;
+	}
+
+	@Override
+	public int score() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

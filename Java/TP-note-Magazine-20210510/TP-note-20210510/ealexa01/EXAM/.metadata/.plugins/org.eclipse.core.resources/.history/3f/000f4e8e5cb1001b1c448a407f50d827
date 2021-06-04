@@ -1,0 +1,6 @@
+package fr.upem.magazine;
+
+public class Almanach extends Magazine {
+	private final int year;
+
+}

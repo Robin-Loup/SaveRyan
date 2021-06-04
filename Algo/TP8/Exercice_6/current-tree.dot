@@ -1,0 +1,44 @@
+digraph tree {
+  splines=false
+  node [shape=record,height=.1]
+  edge [tailclip=false, arrowtail=dot, dir=both];
+
+  n0x5574e2fd24f0 [label="<left> | <value> Old | <right>"];
+  n0x5574e2fd24f0:left:c -> n0x5574e2fd2530:value;
+  n0x5574e2fd2530 [label="<left> | <value> MACDONALD | <right>"];
+  n0x5574e2fd2530:left:c -> n0x5574e2fd2630:value;
+  n0x5574e2fd2630 [label="<left> | <value> E-I-E-I-O | <right>"];
+  n0x5574e2fd2630:left:c -> n0x5574e2fd2670:value;
+  n0x5574e2fd2670 [label="<left> | <value> And | <right>"];
+  n0x5574e2fd2630:right:c -> n0x5574e2fd28b0:value;
+  n0x5574e2fd28b0 [label="<left> | <value> Here | <right>"];
+  n0x5574e2fd28b0:left:c -> n0x5574e2fd2930:value;
+  n0x5574e2fd2930 [label="<left> | <value> Everywhere | <right>"];
+  n0x5574e2fd2530:right:c -> n0x5574e2fd2970:value;
+  n0x5574e2fd2970 [label="<left> | <value> MacDonald | <right>"];
+  n0x5574e2fd24f0:right:c -> n0x5574e2fd2570:value;
+  n0x5574e2fd2570 [label="<left> | <value> had | <right>"];
+  n0x5574e2fd2570:left:c -> n0x5574e2fd25b0:value;
+  n0x5574e2fd25b0 [label="<left> | <value> a | <right>"];
+  n0x5574e2fd25b0:left:c -> n0x5574e2fd27b0:value;
+  n0x5574e2fd27b0 [label="<left> | <value> With | <right>"];
+  n0x5574e2fd25b0:right:c -> n0x5574e2fd25f0:value;
+  n0x5574e2fd25f0 [label="<left> | <value> farm | <right>"];
+  n0x5574e2fd25f0:left:c -> n0x5574e2fd2770:value;
+  n0x5574e2fd2770 [label="<left> | <value> cow | <right>"];
+  n0x5574e2fd2570:right:c -> n0x5574e2fd26b0:value;
+  n0x5574e2fd26b0 [label="<left> | <value> on | <right>"];
+  n0x5574e2fd26b0:left:c -> n0x5574e2fd26f0:value;
+  n0x5574e2fd26f0 [label="<left> | <value> his | <right>"];
+  n0x5574e2fd26f0:left:c -> n0x5574e2fd2730:value;
+  n0x5574e2fd2730 [label="<left> | <value> he | <right>"];
+  n0x5574e2fd2730:right:c -> n0x5574e2fd2830:value;
+  n0x5574e2fd2830 [label="<left> | <value> here | <right>"];
+  n0x5574e2fd26f0:right:c -> n0x5574e2fd27f0:value;
+  n0x5574e2fd27f0 [label="<left> | <value> moo | <right>"];
+  n0x5574e2fd27f0:right:c -> n0x5574e2fd28f0:value;
+  n0x5574e2fd28f0 [label="<left> | <value> moo, | <right>"];
+  n0x5574e2fd26b0:right:c -> n0x5574e2fd2870:value;
+  n0x5574e2fd2870 [label="<left> | <value> there | <right>"];
+
+}

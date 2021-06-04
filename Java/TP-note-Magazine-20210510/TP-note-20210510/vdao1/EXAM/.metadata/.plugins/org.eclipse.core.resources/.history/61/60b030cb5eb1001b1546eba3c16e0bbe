@@ -1,0 +1,10 @@
+package fr.upem.magazine;
+
+public class Almanac extends Magazine{
+	private final parution;
+	public Almanac(String name, int price,int parution) {
+		super(name, price);
+		// TODO Auto-generated constructor stub
+	}
+
+}

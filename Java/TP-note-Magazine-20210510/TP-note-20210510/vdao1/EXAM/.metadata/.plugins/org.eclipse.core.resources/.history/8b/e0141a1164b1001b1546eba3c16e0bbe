@@ -1,0 +1,12 @@
+package fr.upem.magazine;
+
+import java.util.Objects;
+
+public class LikeEval implements Eval{
+	public int score;
+	public LikeEval(boolean b) {
+		// TODO Auto-generated constructor stub
+		Objects.requireNonNull(b);
+		
+	}
+}

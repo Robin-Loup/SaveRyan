@@ -1,0 +1,6 @@
+package fr.upem.magazine;
+
+public class LikeEval implements Eval{
+	public int score;
+	
+}

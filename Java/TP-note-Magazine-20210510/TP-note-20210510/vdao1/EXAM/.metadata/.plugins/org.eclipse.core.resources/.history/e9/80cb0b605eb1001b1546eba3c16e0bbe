@@ -1,0 +1,31 @@
+package fr.upem.magazine;
+
+import java.util.HashSet;
+import java.util.List;
+
+public class Main {
+	public static void main(String[] args) {
+		///////////////////
+		// EX 1 - 1
+		///////////////////
+		var magazine1 = new Magazine("rolling stone", 8);
+		System.out.println(magazine1); // rolling stone magazine at 8€
+		System.out.println(magazine1.price()); // 8
+		magazine1.price(9);
+		System.out.println(magazine1); // rolling stone magazine at 9€
+		//////////////////
+		// EX 1 - 2
+		//////////////////
+		var magazine2 = new Magazine("newsweek", 7);
+	    var magazine3 = new Magazine("newsOfTheWorld", 3);
+	    var magazineList = List.of(magazine1, magazine2, magazine3);
+	    System.out.println(magazineList.contains(new Magazine("newsweek", 0)));  // true
+	    System.out.println(magazineList.contains(new Magazine("newswoke", 0)));  // false
+			
+	    var magazineSet = new HashSet<>(magazineList);
+	    System.out.println(magazineSet.contains(new Magazine("newsweek", 0)));  // true
+	    System.out.println(magazineSet.contains(new Magazine("newswoke", 0)));  // false
+	    System.out.println(magazine2.equals(new Magazine("newsweek", 0)));
+	    
+	}
+}

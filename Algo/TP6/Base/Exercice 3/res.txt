@@ -1,0 +1,19 @@
+here: 20
+MACDONALD: 2
+E-I-E-I-O: 41, 15, 6
+his: 9
+he: 11
+moo,: 28
+there: 29, 25
+MacDonald: 37
+moo: 35, 34, 31, 24, 23, 19, 18
+on: 8
+had: 38, 12, 3
+With: 16
+And: 21, 7
+farm: 40, 10, 5
+Here: 26
+Everywhere: 32
+cow: 14
+Old: 36, 1
+a: 39, 33, 30, 27, 22, 17, 13, 4

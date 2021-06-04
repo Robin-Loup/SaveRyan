@@ -1,0 +1,34 @@
+package fr.upem.magazine.main;
+
+import java.util.HashSet;
+import java.util.List;
+
+import fr.upem.magazine.Magazine;
+
+public class Main {
+
+	public static void main(String[] args) {
+	    var magazine1 = new Magazine("rolling stone", 8);
+	    System.out.println(magazine1);  // rolling stone magazine at 8€
+	    System.out.println(magazine1.price()); // 8
+	    magazine1.price(9);	
+	    System.out.println(magazine1);  // rolling stone magazine at 9€
+	    
+	    var magazine2 = new Magazine("newsweek", 7);
+	    var magazine3 = new Magazine("newsOfTheWorld", 3);
+	    var magazineList = List.of(magazine1, magazine2, magazine3);
+	    System.out.println(magazineList.contains(new Magazine("newsweek", 0)));  // true
+	    System.out.println(magazineList.contains(new Magazine("newswoke", 0)));  // false
+			
+	    var magazineSet = new HashSet<>(magazineList);
+	    System.out.println(magazineSet.contains(new Magazine("newsweek", 0)));  // true
+	    System.out.println(magazineSet.contains(new Magazine("newswoke", 0)));  // false
+	    
+	    var almanac1 = new Almanac("rolling stone", 19, 2020);
+	    System.out.println(almanac1);  // rolling stone almanac of 2020 at 19€
+	    System.out.println(almanac1.price()); // 19
+	    almanac1.price(20);
+	    System.out.println(almanac1);  // rolling stone almanac of 2020 at 20€
+	}
+
+}

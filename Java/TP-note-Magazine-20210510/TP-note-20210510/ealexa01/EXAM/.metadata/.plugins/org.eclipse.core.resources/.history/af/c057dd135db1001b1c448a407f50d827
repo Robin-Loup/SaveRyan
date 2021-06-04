@@ -1,0 +1,17 @@
+package fr.upem.magazine;
+
+import java.util.Objects;
+
+public class Almanach extends Magazine {
+	private final int year;
+	
+	public Almanach(String name, int price, int year) {
+		super(name, price);
+		Objects.requireNonNull(year);
+		if (year<1900 && year>2022) { // Potentielle amélioration : récupérer l'année actuelle pour limiter les dates de parution
+			throw new IllegalArgumentException("L'année de parution est invalide.");
+		}
+		this.year = year;
+	}
+
+}

@@ -1,0 +1,8 @@
+package fr.upem.magazine;
+
+public class StarEval implements Eval{
+	private int score;
+	public String score() {
+		return (this.score/20)-50;
+	}
+}

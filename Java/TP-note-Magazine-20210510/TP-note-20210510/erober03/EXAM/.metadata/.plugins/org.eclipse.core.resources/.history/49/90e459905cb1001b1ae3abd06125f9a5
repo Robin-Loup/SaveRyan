@@ -1,0 +1,11 @@
+package fr.upem.magazine;
+
+public class Almanac extends Magazine {
+	private final int years;
+
+	public Almanac(String name, int price,int years) {
+		super(name, price);
+		
+	}
+
+}
