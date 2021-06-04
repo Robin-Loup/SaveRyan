@@ -19,8 +19,16 @@ void free_reponse(List_reponse l){
 }
 
 List_reponse add_reponse(List_reponse rep, List_reponse add){
-    add->next = rep;
-    return add;
+    if (!rep)
+        return add;
+    List_reponse tmp = rep;
+    while (tmp->next){
+        tmp = tmp->next;
+        
+    }
+   
+    tmp->next = add;
+    return rep;
 }
 
 
@@ -102,6 +110,7 @@ void write_question(List_question lq, FILE *fichier){
 
 void free_question(List_question q){
     if (q){
+        free(q->quest);
         free_reponse(q->reponses);
         free_question(q->next);
         free(q);

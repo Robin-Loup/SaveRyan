@@ -31,8 +31,9 @@ void print_data(List_Data ld){
 }
 
 void update(List_Data ld, List_person reponse){
+    /*print_data(ld);*/
     List_Data tmp = ld;
-    while (tmp){
+    while (tmp){ 
         List_question question = tmp->question;
         List_reponse lr = question->reponses;
         int find = 0;
@@ -43,9 +44,12 @@ void update(List_Data ld, List_person reponse){
             }
             lr = lr->next;
         }
+        
         if (!find){
+            /*print_list_p(reponse);*/
             question->reponses = add_reponse(question->reponses, create_reponse(reponse->index, tmp->reponse, 1));
         }
+        
         tmp = tmp->next;
     }
 }

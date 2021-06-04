@@ -1,8 +1,16 @@
 Votre personnage fait il de la politique?
-2 5 1 1 1 1 -1
+1 1 1 2 5 1 0 5 1 -1
 Est il un acteur?
-1 5 1 0 5 1 -1
+1 5 6 0 5 1 2 5 1 -1
 Est il president?
-1 1 7 -1
+1 1 9 0 5 1 -1
 Est ce un homme?
-1 1 1 -1
+1 1 6 2 1 2 -1
+Est il noir?
+2 5 1 0 5 1 -1
+Travaille il à l'ESIPE?
+2 1 1 0 1 1 -1
+Fait il du Java?
+2 1 2 3 1 1 -1
+Enseigne il le javaScript?
+3 1 3 -1
